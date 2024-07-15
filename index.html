@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Model Upload</title>
+</head>
+<body>
+    <h1>Upload Your 3D Model</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="modelFile" name="modelFile" accept=".obj,.fbx,.gltf,.glb" required>
+        <button type="submit">Upload</button>
+    </form>
+    <div id="viewer"></div>
+    <div id="downloadLink"></div>
+    <div id="progressContainer">
+        <progress id="progressBar" value="0" max="100"></progress>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

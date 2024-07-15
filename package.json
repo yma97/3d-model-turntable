@@ -10,7 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bull": "^4.15.1",
     "express": "^4.19.2",
-    "express-fileupload": "^1.5.1"
+    "express-fileupload": "^1.5.1",
+    "redis": "^4.6.15"
   }
 }
